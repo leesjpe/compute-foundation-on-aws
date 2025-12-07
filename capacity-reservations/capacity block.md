@@ -1,4 +1,4 @@
-# EC2 Capacity Blocks for ML (Trainium2)
+# EC2 Capacity Blocks for ML
 
 AWS Trainium, P 시리즈와 같은 고성능 인스턴스는 가용한 온디맨드 수량이 없다면 **Capacity Block(CB)**을 통해 미리 예약해야 사용 할 수 있습니다. 이 가이드는 CB를 구매하고 활성화하는 전체 과정을 설명합니다.
 본 가이드는 trn2.48xlarge 를 기준으로 하지만 전체 과정은 P 인스턴스 타입도 동일하게 적용 됩니다.
