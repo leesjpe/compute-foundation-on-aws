@@ -14,6 +14,6 @@ Prerequisites, foundational resources, and shared infrastructure guides for AWS 
 * `/iam-policies`: Least privilege policies for XC users.
 
 ## 🔗 Related Repositories
-* [XC Neuron Silicon](https://github.com/your-username/xc-neuron-silicon-aws)
-* [XC GPU on AWS](https://github.com/your-username/xc-gpu-on-aws)
-* [ParallelCluster on AWS](https://github.com/your-username/parallel-cluster-on-aws)
+* [XC Neuron Silicon](https://github.com/leesjpe/xc-neuron-silicon-aws.git)
+* [XC GPU on AWS](https://github.com/leesjpe/xc-gpu-on-aws)
+* [ParallelCluster on AWS](https://github.com/leesjpe/parallel-cluster-on-aws)
