@@ -58,4 +58,4 @@ Capacity Block은 구매 시점에 **AZ(가용 영역)가 지정**됩니다. (�
 
 > 스크린샷의 예시에서는 **`us-east-2b`** 가 할당되었으므로, VPC 생성 시 해당 구역에 서브넷을 생성해야 합니다.
 
-> 이렇게 Capacity Block 이 완료 되었다면 구매한 [Capacity Block 을 통해 EC2 인스턴스를 생성](https://github.com/leesjpe/compute-foundation-on-aws/blob/main/ec2/ec2-dlami-neuron.md) 가이드를 참고하여 학습/추론을 시작합니다
+이렇게 Capacity Block 이 완료 되었다면 구매한 [Capacity Block 을 통해 EC2 인스턴스를 생성](https://github.com/leesjpe/compute-foundation-on-aws/blob/main/ec2/ec2-dlami-neuron.md) 가이드를 참고하여 학습/추론을 시작합니다
