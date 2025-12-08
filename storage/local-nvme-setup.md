@@ -67,7 +67,7 @@ sudo mount /dev/md0 /data
 sudo chmod 777 /data
 ```
 
-# 4. 잘 됐는지 확인 (약 7TB가 보여야 함)
+# 4. 마운트 확인 (약 7TB가 보여야 함)
 ```bash
 df -h /data
 ```
