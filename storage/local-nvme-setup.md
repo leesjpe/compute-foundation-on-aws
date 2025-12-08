@@ -33,12 +33,23 @@ Trainium2 (`trn2.48xlarge`) 인스턴스는 매우 빠른 속도의 **Local NVMe
 <img width="592" height="195" alt="Screenshot 2025-12-06 at 10 33 54 AM" src="https://github.com/user-attachments/assets/5a4bb1a3-276c-492d-b7b6-819fcc242b17" />
 
 
+
 # 1. RAID 0 생성 (nvme 1~4번을 하나로 묶음)
+
+mdadm 도구를 사용하여 4개의 디스크를 하나의 논리적 장치(/dev/md0)로 묶습니다.
+
 ```bash
 sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=4 /dev/nvme1n1 /dev/nvme2n1 /dev/nvme3n1 /dev/nvme4n1
 ```
+
 [실행결과]
 <img width="1269" height="87" alt="Screenshot 2025-12-06 at 10 36 53 AM" src="https://github.com/user-attachments/assets/16cb7011-10db-4cad-bb4c-dd2a6ecf02ed" />
+
+이 때 해당 장치는 인스턴스에 연결된 Nvme 를 아래 명령어로 확인 한 뒤에 인스턴스 상황에 맞게 기재 
+```bash
+lsblk
+```
+
 
 # 2. 파일 시스템 포맷
 ```bash
