@@ -55,7 +55,6 @@ sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=4 /dev/nvme1n1 /
 [실행결과]
 <img width="1269" height="87" alt="Screenshot 2025-12-06 at 10 36 53 AM" src="https://github.com/user-attachments/assets/16cb7011-10db-4cad-bb4c-dd2a6ecf02ed" />
 
-[마운트 결과 ]
 <img width="683" height="420" alt="Screenshot 2026-01-08 at 11 52 00 AM" src="https://github.com/user-attachments/assets/bf29fdc4-2462-4f27-9c52-66562d1ac69c" />
 
 
