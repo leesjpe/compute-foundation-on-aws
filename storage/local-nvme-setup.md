@@ -45,11 +45,13 @@ sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=4 /dev/nvme1n1 /
 [실행결과]
 <img width="1269" height="87" alt="Screenshot 2025-12-06 at 10 36 53 AM" src="https://github.com/user-attachments/assets/16cb7011-10db-4cad-bb4c-dd2a6ecf02ed" />
 
-이 때 해당 장치는 인스턴스에 연결된 Nvme 를 아래 명령어로 확인 한 뒤에 인스턴스 상황에 맞게 기재 
+이 때 해당 장치는 인스턴스에 연결된 nvme 를 아래 명령어로 확인 한 뒤에 인스턴스 상황에 맞게 기재 
 ```bash
 lsblk
 ```
+<img width="736" height="336" alt="Screenshot 2026-01-08 at 11 51 46 AM" src="https://github.com/user-attachments/assets/bb5d0be8-a2b5-4bc2-8126-6121f087cc1f" />
 
+* 위 이미지의 경우 대상 장치는 nvme 는 nvme1n1, nvme4n1, nvme0n1, nvme3n1
 
 # 2. 파일 시스템 포맷
 ```bash
